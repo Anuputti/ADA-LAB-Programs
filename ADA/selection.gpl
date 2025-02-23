@@ -1,0 +1,10 @@
+#Gnuplot script file for plotting data in file selection.dat
+#this file is called selection.gpl
+set terminal png font arial
+set title "Time complexity of selection sort"
+set autoscale
+set xlabel "Size of input"
+set ylabel "Sorting Time(ms)"
+set grid
+set output "select.png"
+plot "selection.dat" t "select" with lines

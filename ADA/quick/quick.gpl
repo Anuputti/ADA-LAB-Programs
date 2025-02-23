@@ -1,0 +1,7 @@
+set terminal png font arial
+set title "Time xomp"
+set autoscale
+set xlabel "size in"
+set ylabel "sort time"
+set output "quick.png"
+plot "quick.dat" t "quick" with lines

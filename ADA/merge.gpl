@@ -1,0 +1,8 @@
+set terminal png font arial
+set title "Time conplexity"
+set autoscale 
+set xlabel "Size of input"
+set ylabel "Sorting time(ms)"
+set grid
+set output "merge.png"
+plot "merge.dat" t "merge" with lines 
